@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": false,
+    "declaration": false,
+    "incremental": true,
+    "sourceMap": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "tsBuildInfoFile": "./.cache/.tsbuildinfo",
+    "outDir": "transpiled",
+    "baseUrl": ".",
+    "types": [
+      "node",
+      "@testing-library/jest-dom",
+      "styled-components/cssprop"
+    ],
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*",
+    "config/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
